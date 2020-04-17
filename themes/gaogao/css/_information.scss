@@ -1,0 +1,48 @@
+.information{
+  margin-top: 80px;
+  &_main{
+    display: flex;
+    justify-content: center;
+    &_map{
+      width: 400px;
+      height: 300px;
+    }
+    &_list{
+      margin-left: 30px;
+      ul{
+        li{
+          margin-top: 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+.information{
+  margin-top: 50px;
+  &_main{
+    display: block;
+    margin-top: 50px;
+    &_map{
+      width: 350px;
+      height: 350px;
+      margin: auto;
+      iframe{
+        width: 350px;
+        height: 350px;
+      }
+    }
+    &_list{
+      margin-left: 0px;
+      ul{
+        padding-left: 10px;
+        li{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+}

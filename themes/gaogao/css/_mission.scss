@@ -1,0 +1,42 @@
+.mission{
+  width: 80%;
+  height: 720px;
+  margin: 0 auto;
+  margin-top: 100px;
+  .mission-wrap{
+    text-align: center;
+    border: 5px solid black;
+    height: 70%;
+    position: relative;
+    .mission-content{
+      width: 80%;
+      height: 110%;
+      margin: auto;
+      background-color: #ffffff;
+      position: absolute;
+      top: -10px;
+      left: 10%;
+      p{
+        margin-top: 8%;
+        line-height: 3;
+        font-size: 24px;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 750px) {
+.mission{
+  height: 300px;
+  .mission-wrap{
+    height: 70%;
+    border: 2px solid black;
+    .mission-content{
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+}
+}

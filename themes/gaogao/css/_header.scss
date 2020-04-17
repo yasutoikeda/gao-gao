@@ -1,0 +1,46 @@
+header{
+  .header-in{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  .header-logo{
+    img{
+      width: 300px;
+    }
+  }
+  nav{
+    .global-list{
+      display: flex;
+      .global-item{
+        padding: 20px 20px;
+        a{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+  }
+  
+}
+
+@media screen and (max-width: 750px) {
+  header
+  .header-in{
+    .header-logo{
+      img{
+        width: 150px;
+        height: 50px;
+      }
+    }
+  }
+
+}
+
+.header-img{
+  img{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+  }
+}
