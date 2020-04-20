@@ -150,13 +150,13 @@
           <tr>
             <th>電話番号</th>
             <td>
-              <input type="text" placeholder="000-0000-000">
+              <input type="text" placeholder="01-2345-6789">
             </td>
           </tr>
           <tr>
             <th>メールアドレス</th>
             <td>
-              <input type="text" placeholder="aaaaaaa@xxxxxx.com">
+              <input type="text" placeholder="example@gaogao.com">
             </td>
           </tr>
           <tr>
