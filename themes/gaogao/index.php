@@ -37,10 +37,10 @@
     <div id="gloval-nav">
         <nav>
             <ul class="global-list">
-                <li class="global-item"><a href="#a">Mission</a></li>
-                <li class="global-item"><a href="#b">Service</a></li>
-                <li class="global-item"><a href="#c">Information</a></li>
-                <li class="global-item"><a href="#d">Contact</a></li>
+                <li class="global-item"><a href="#mission">Mission</a></li>
+                <li class="global-item"><a href="#service">Service</a></li>
+                <li class="global-item"><a href="#information">Information</a></li>
+                <li class="global-item"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -51,7 +51,7 @@
   </div>
   </header>
 
-  <section class="mission" id="a">
+  <section class="mission" id="mission">
     <div class="section-title">
       <img src="<?php echo get_template_directory_uri(); ?>/images/mission.svg" alt="">
     </div>
@@ -69,7 +69,7 @@
     </div>
   </section>
 
-  <section class="service" id="b">
+  <section class="service" id="service">
     <div class="service_bg"></div>
     <div class="section-title">
       <img src="<?php echo get_template_directory_uri(); ?>/images/service.svg" alt="">
@@ -105,7 +105,7 @@
       </ul>
   </section>
 
-  <section class="information" id="c">
+  <section class="information" id="information">
     <div class="section-title">
       <img src="<?php echo get_template_directory_uri(); ?>/images/information.svg" alt="">
     </div>
@@ -128,7 +128,7 @@
 
   </section>
 
-  <section class="contact" id="d">
+  <section class="contact" id="contact">
     <div class="section-title">
       <img src="<?php echo get_template_directory_uri(); ?>/images/contact.svg" alt="">
     </div>
@@ -142,7 +142,7 @@
             </td>
           </tr>
           <tr>
-            <th>ふりがな</th>
+            <th>フリガナ</th>
             <td>
               <input type="text" placeholder="スズキ　イチロウ">
             </td>
@@ -156,7 +156,7 @@
           <tr>
             <th>メールアドレス</th>
             <td>
-              <input type="text" placeholder="example@gaogao.com">
+              <input type="text" placeholder="suzuki@exanple.com">
             </td>
           </tr>
           <tr>
