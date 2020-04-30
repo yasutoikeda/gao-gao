@@ -1,8 +1,8 @@
 === Head, Footer and Post Injections ===
 Tags: header, footer, blog, page, single, post, head, tracking, facebook, og meta tag, open graph, ads, adsense, injections, analytics, amp, pixel
 Requires at least: 3.0
-Tested up to: 5.2
-Stable tag: 3.1.3
+Tested up to: 5.3.2
+Stable tag: 3.1.6
 Donate link: http://www.satollo.net/donations
 Contributors: satollo
 
@@ -34,7 +34,7 @@ without loosing the code injected!
 = AMP =
 
 A new AMP dedicated section compatible with [AMP plugin](https://wordpress.org/plugins/amp) lets you to inject specific codes in
-AMP pages.
+AMP pages. Should be ok even with other AMP plugins. 
 
 = Post Top and Bottom Codes =
 
@@ -69,9 +69,12 @@ Other plugins by Stefano Lissa:
 * [Hyper Cache](http://www.satollo.net/plugins/hyper-cache)
 * [Newsletter](http://www.thenewsletterplugin.com)
 * [Include Me](http://www.satollo.net/plugins/include-me)
-* [Comment Plus](http://www.satollo.net/plugins/comment-plus)
 * [Thumbnails](http://www.satollo.net/plugins/thumbnails)
-* [Ads for bbPress](http://www.satollo.net/plugins/ads-bbpress)
+* [Ads for bbPress](https://wordpress.org/plugins/ads-bbpress/)
+
+= Translation =
+
+You can contribute to translate this plugin in your language on [WordPress Translate](https://translate.wordpress.org)
 
 == Installation ==
 
@@ -91,6 +94,21 @@ FAQs are answered on [Header and Footer](http://www.satollo.net/plugins/header-f
 4. Configurable snippets of code to be recalled on other configurations (to save time)
 
 == Changelog ==
+
+= 3.1.6 =
+
+* Fixed check_admin_referrer action
+
+= 3.1.5 =
+
+* Fixed wrong injection in amp pages
+
+= 3.1.4 =
+
+* Performance optimization
+* Removed obsolete code
+* Improved AMP support
+* (Temporary) removed metaboxes (they were not working anyway)
 
 = 3.1.3 =
 
