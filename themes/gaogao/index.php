@@ -118,60 +118,22 @@
         <ul>
           <li>会社名：株式会社ガオガオ</li>
           <li>所在地：神奈川県横浜市鶴見区本町通4-170-10-1F</li>
-          <li>アドレス：</li>
+          <li>アドレス：contact@gao-gao.net</li>
           <li>資本金：300万円</li>
           <li>代表取締役社長：山下　泰由樹</li>
           <li>従業員：3人</li>
         </ul>
       </div>
     </div>
-
   </section>
 
-  <section class="contact" id="contact">
+  <section class="contact">
     <div class="section-title">
       <img src="<?php echo get_template_directory_uri(); ?>/images/contact.svg" alt="">
     </div>
-    <form>
-      <table>
-        <tbody>
-          <tr>
-            <th>お名前</th>
-            <td>
-              <input type="text" placeholder="鈴木　一郎">
-            </td>
-          </tr>
-          <tr>
-            <th>フリガナ</th>
-            <td>
-              <input type="text" placeholder="スズキ　イチロウ">
-            </td>
-          </tr>
-          <tr>
-            <th>電話番号</th>
-            <td>
-              <input type="text" placeholder="01-2345-6789">
-            </td>
-          </tr>
-          <tr>
-            <th>メールアドレス</th>
-            <td>
-              <input type="text" placeholder="suzuki@exanple.com">
-            </td>
-          </tr>
-          <tr>
-            <th>お問い合わせ内容</th>
-            <td>
-              <textarea name="contents" rows="10" placeholder="お問い合わせ内容を記載してください。"></textarea>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </form>
-    <div class="btnarea">
-      <input class="btn" type="submit" value="送信">
-    </div>
-  </section>
+    <?php echo do_shortcode('[contact-form-7 id="9" title="コンタクトフォーム 1"]'); ?>
+  </section><!-- end.contact -->
+
 
   <footer>
     <div class="footer-logo">
